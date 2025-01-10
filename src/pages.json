@@ -1,0 +1,48 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "广场"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "tabBar": {
+    "custom": false,
+    "backgroundColor": "#FFFFFF",
+    "color": "#999999",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "广场",
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/home_cur.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "/static/tabbar/my.png",
+        "selectedIconPath": "/static/tabbar/my_cur.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-unocss-starter",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      // "van-button": "/wxcomponents/vant/button/index"
+      // "van-image": "/wxcomponents/vant/image/index",
+      // "van-icon": "/wxcomponents/vant/icon/index",
+      // "van-divider": "/wxcomponents/vant/divider/index"
+    }
+  }
+}
