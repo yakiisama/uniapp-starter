@@ -13,7 +13,7 @@ const activities = ref([
     date: '1/20',
     location: '上海市-闵行区',
     image: 'https://picsum.photos/80/80',
-    members: ['https://picsum.photos/20/20', 'https://picsum.photos/20/20'],
+    members: ['https://picsum.photos/20/20', 'https://picsum.photos/20/20', 'https://picsum.photos/20/20', 'https://picsum.photos/20/20', 'https://picsum.photos/20/20'],
     memberCount: 8,
   },
 ])

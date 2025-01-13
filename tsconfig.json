@@ -6,7 +6,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["@dcloudio/types", "@types/node"],
+    "types": ["@dcloudio/types", "@types/node", "miniprogram-api-typings"],
     "sourceMap": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
