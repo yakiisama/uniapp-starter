@@ -2,6 +2,13 @@
 
 使用 antfu/ni 管理
 
-nr dev:mp-weixin 启动！
+- uniapp
+- unocss
+- vite
+- vue3
+- auto import vue 、 uniapp variables
+- auto import custom components
+- vantweapp ui (只支持微信小程序，如果需要跨端，可以自己用其他 ui 库)
+- eslint save
 
-有报错找不到组件是垃圾微信ide不行，ide => 项目 => 重新打开项目
+nr dev:mp-weixin 启动！
