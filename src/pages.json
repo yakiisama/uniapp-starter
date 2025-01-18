@@ -3,7 +3,7 @@
     {
       "path": "pages/home/index",
       "style": {
-        "navigationBarTitleText": "广场"
+        "navigationBarTitleText": "首页"
       }
     },
     {
@@ -21,7 +21,7 @@
     "list": [
       {
         "pagePath": "pages/home/index",
-        "text": "广场",
+        "text": "首页",
         "iconPath": "/static/tabbar/home.png",
         "selectedIconPath": "/static/tabbar/home_cur.png"
       },

@@ -5,5 +5,7 @@ module.exports = antfu({
   formatters: true,
   rules: {
     'vue/html-self-closing': 'off',
+    'antfu/top-level-function': 'off',
+    'no-console': 'off',
   },
 })
