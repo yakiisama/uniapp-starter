@@ -15,5 +15,15 @@ export default defineConfig(async () => {
         '@': resolve(__dirname, 'src'),
       },
     },
+
+    server: {
+      proxy: {
+        '/api': {
+          target: 'http://localhost:9001',
+          changeOrigin: true,
+          rewrite: path => path.replace(/^\/api/, ''),
+        },
+      },
+    },
   }
 })
